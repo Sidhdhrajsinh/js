@@ -40,7 +40,7 @@ const obj2 = {
 // console.log(obj3); 
 
 const obj3 = {...obj1, ...obj2} //spread- easy
-console.log(obj3); 
+// console.log(obj3); 
 
 
 // console.log(Object.keys(tinderUser));
@@ -48,4 +48,45 @@ console.log(obj3);
 // console.log(Object.entries(tinderUser));
 
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+//================vid 18=========
+
+const course = {
+    name: "JS in hindi",
+    price: 999,
+    courseInstructor: "Hitesh sir"
+}
+
+//course.courseInstructor
+
+//++++Destructuring+++++
+
+// const {courseInstructor} = course;
+
+// console.log(courseInstructor);
+
+
+
+// const {courseInstructor: prof} = course;
+
+// console.log(prof);
+
+
+//_______________API_______________
+
+//json ex
+// {
+//     "name": "hitesh",
+//     "coursename": "JS in hindi",
+//     "price": "free"
+// }
+
+
+// some api may come in array with objects in it
+// [
+//     {},
+//     {},
+//     {}
+// ]
